@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search_page</title>
+    <link rel = "stylesheet" href = "./css/search.css">
+
+</head>
+<body>
+    <!-- <h1>Search_page</h1> -->
+        <input type ="text" id= "query" oninput = "debounce(main,1000)">
+        <div id = "search"></div>
+        <div id= "container"></div> 
+</body>
+</html>
+
+<script>
+    async function main(){
+    try{
+        let data = await searchtitle();
+        if(!data){
+            return false;
+        }
+        appendData(data)
+
+
+      
+    }
+        catch(error){
+            console.log(error)
+        
+    }
+}
+async function searchtitle(){
+
+    try{
+        let movie = document.getElementById('query').value;
+        let res = await fetch(
+           'http://localhost:3000/products'
+        );
+        let data = await res.json();
+        console.log(data)
+        // return dataddd
+        return data;  
+         
+    }
+    catch(error){
+        console.log(error)
+    }
+
+}
+
+let element = document.getElementById('search');
+function appendData(data){
+    data.forEach((output) => {
+        // console.log(output)
+//    let location = document.createElement("p");
+
+//    location.textContent = output.location;
+  
+//    let title = document.createElement("p")
+//    title.textcontent = output.title;
+   let title=document.createElement("p")
+   title.innerHTML=output.title;
+   title.setAttribute("id","name")
+
+   let hr = document.createElement("vr")
+
+   let foodType = document.createElement("p")
+   foodType.textContent = output.foodType;
+
+   let img = document.createElement("img")
+   img.src = output.img;
+// main.append(location)
+    element.append(img,title)
+  
+   
+        
+    });
+}
+
+let timerId;
+function debounce(func,delay){
+
+    if(timerId){
+clearTimeout(timerId)
+    }
+    timerId = setTimeout(function(){
+        func();
+
+    },delay)
+}
+
+</script>
