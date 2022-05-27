@@ -3,8 +3,8 @@ function booked(){
     
     <div id="booked-container">
         <div id="booked-rest">
-            <h1 id="b-res-name">Smoke Hub Barbeque</h1>
-            <div id="b-res-address">Thyagaraya Nagar, Central Chennai, Chennai,</div>
+            <h1 id="b-res-name">Doodle's Garden</h1>
+            <div id="b-res-address">Punjabi Bagh, West Delhi</div>
         </div>
         <hr class="b-hr">
         <div id="guest-details">

@@ -354,7 +354,7 @@ div>h5{
 }
 #left-arrow{
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: -43;
     background: rgba(0,0,0,.6);
     border-radius: 50%;
@@ -371,7 +371,7 @@ div>h5{
 }
 #right-arrow{
     position: absolute;
-    top: 40%;
+    top: 35%;
     right: -40;
     background: rgba(0,0,0,.6);
     border-radius: 50%;
@@ -397,7 +397,7 @@ div>h5{
     color: white;
     cursor: pointer;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.323);
+    background-color: rgba(0, 0, 0, 0.536);
     border: 1px solid rgb(174, 174, 174);
     border-radius: 30px;
 }
