@@ -1,5 +1,8 @@
 function photos(){
-    return `<div id="Photos-container">
+    return `
+    <div id="back-button"><i class="fa-solid fa-arrow-left"></i>&nbsp;Click hear to go back</div>
+
+    <div id="Photos-container">
     <div>
         <div id="photos-details">
             <img id="photos-img">
