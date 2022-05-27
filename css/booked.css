@@ -1,10 +1,14 @@
 @import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
 
+body{
+    background-color: rgb(244,244,244);
+}
 #booked-container{
     width: 50%;
     margin: auto;
     font-family: "Metropolis","-apple-system,BlinkMacSystemFont","Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
-
+    background-color: white;
+    padding: 20px;
 
 }
 #booked-rest{
@@ -46,6 +50,9 @@
     color: black;
     float: right;
 }
+#guest-no{
+    font-size: 16px;
+}
 
 .guest-phone-div{
     font-size: 16px;
@@ -78,12 +85,28 @@
     color: rgb(112, 112, 112);
 }
 
+.status{
+    width:100%;
+    text-align: right;
+    font-size: 16px;
+    line-height: 1.9;
+    font-weight: 500;
+    color: black;
+    float: right;
+}
 #status{
     color: black;
+    float: right;
 }
 #date-time,#total-guest,#b-guest-name,#guest-id{
     color: black;
     float: right;
+}
+.b-hr{
+    width:100%;
+    background-color: #a0a0a0;
+    height: 3px;
+    border: 0px solid black;
 }
 
 
