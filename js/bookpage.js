@@ -5,6 +5,7 @@ import navigation from '../components/navigation.js';
 
 let navbar=document.getElementById('nav-bar');
 navbar.innerHTML=navigation();
+
 var sliderContainer = document.getElementById('slider-container');
 var found;
 getData();
@@ -320,3 +321,4 @@ continuebutton.addEventListener('click',function(){
     bookpageCont.innerHTML=booked();
 
 });
+

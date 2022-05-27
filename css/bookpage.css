@@ -55,13 +55,13 @@
     position: fixed;
     right: 11%;
     top:20%;
-    height:480px;
+    height:400px;
     border-radius: 5px;
     background-color: white;
 }
 #booking-scroll-container{
     overflow-x: scroll;
-    height: 440px;
+    height: 360px;
 }
 #booking-scroll-container::-webkit-scrollbar{
     width:5px;
