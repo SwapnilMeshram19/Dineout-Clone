@@ -24,7 +24,9 @@ function displayData(productDatas){
     productDatas.forEach(product => {
         // console.log(product);
         // productDetails.innerHTML="";
-
+        let linkEle=document.createElement("a");
+        linkEle.setAttribute("href","bookpage.html")
+        linkEle.setAttribute("id","linkEle");
        
 
         let card=document.createElement("div");
@@ -66,7 +68,8 @@ function displayData(productDatas){
         
         divText.append(_title,_location,_price,_foodType,dine);
         card.append(divImg,divText);
-        productDetails.append(card);
+        linkEle.append(card);
+        productDetails.append(linkEle);
         
     });
 }
@@ -102,11 +105,11 @@ function sortAndDisplayData(data){
 
     // based on ratting
     data.sort(function(a,b){
-        if(val="Rating"){
+        if(val=="Rating"){
             return b.rating-a.rating;
-        }else if(val="Price: Low to High"){
+        }else if(val=="Price: Low to High"){
             return a.price-b.price;
-        }else if(val="Price: High to Low"){
+        }else if(val=="Price: High to Low"){
             return b.price-a.price;
 
         }else{
@@ -124,3 +127,12 @@ sort.addEventListener("change",function(){
     console.log(val);
     fetchDataFilter(); 
 });
+
+
+// implement header function 
+
+
+// function addNavBar(element){
+
+
+// }

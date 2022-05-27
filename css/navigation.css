@@ -1,0 +1,83 @@
+#bottomSection{
+    /* width: 60%; */
+    /* margin-left: 20%; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(71, 67, 67);
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+#bottomSection>div>a{
+    text-decoration:none;
+    color: black;
+}
+#container>#bottomSection>div>a:hover{
+    color: #FF645A;
+}
+#topSection{
+    display: flex;
+    /* width: 90%; */
+    justify-content:center;
+    gap: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    
+}
+#container>#topSection>#searchBox>button{
+    color: white;
+    background-color: #FF645A;
+}
+#container>#topSection>#loginButton>button{
+    color: white;
+    background-color: #FF645A;
+}
+#container>#topSection>#logo>img{
+    height: 33px;
+    width: 100px;
+}
+#container>#topSection>#location>#places{
+    border-radius: 4px;
+    align-items: center;
+    border: 0.5px solid #bcbcbc;
+    padding: 0.4rem 1rem;
+    margin: 0 0 0 3rem;
+    width: 210px;
+    position: relative;
+    color: #666;
+}
+#container>#topSection>#searchBox>input{
+    width: 631.5px;
+    height: 25px;
+}
+#container>#topSection>#searchBox>button{
+    height: 29px;
+    border-radius: 5px;
+    border: none;
+    width: 97.27px;
+}
+#container>#topSection>#loginButton>button{
+    height: 29px;
+    border-radius: 5px;
+    border: none;
+    width: 108.5px;
+}
+#product-header{
+    padding-top: 5px;
+    /* padding-bottom: 5px; */
+    background-color: white;
+    
+    /* padding-bottom: 2px; */
+    
+}
+#container{
+    padding-top: 15px;
+    /* width: 75%; */
+}
+.hrline{
+    border: 0.1px solid rgb(236, 233, 240);
+}
