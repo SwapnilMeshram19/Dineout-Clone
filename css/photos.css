@@ -123,6 +123,7 @@ hr{
 #galary-grid>img{
     width:100%;
     height: 160px;
+    cursor: pointer;
 }
 
 p{
