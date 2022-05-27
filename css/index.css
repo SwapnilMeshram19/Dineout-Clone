@@ -433,3 +433,14 @@ font-weight: 400;
 
 
 }
+
+#loginButton>button{
+    height: 29px;
+    border-radius: 5px;
+    border: none;
+    width: 108.5px;
+}
+#loginButton>button{
+    color: white;
+    background-color: #FF645A;
+}
