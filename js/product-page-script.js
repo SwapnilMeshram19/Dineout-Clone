@@ -66,6 +66,9 @@ function displayData(productDatas){
         dine.style.backgroundColor="#FFF4F4";
         dine.style.marginLeft="10px";
         
+        card.addEventListener('click',function(){
+            location.href='bookpage.html';
+        });
         divText.append(_title,_location,_price,_foodType,dine);
         card.append(divImg,divText);
         linkEle.append(card);

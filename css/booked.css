@@ -1,14 +1,19 @@
 @import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
 
+body{
+    background-color: rgb(244,244,244);
+}
 #booked-container{
-    width: 40%;
+    width: 50%;
     margin: auto;
     font-family: "Metropolis","-apple-system,BlinkMacSystemFont","Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
-
+    background-color: white;
+    padding: 20px;
 
 }
 #booked-rest{
     text-align: center;
+    padding:20px;
 
 }
 #b-res-name{
@@ -23,3 +28,89 @@
     color: #a0a0a0;
     font-size: 18px;
 }
+
+#guest-details{
+    margin-top:10px;
+}
+#guest-details>h5{
+    margin: 0;
+    line-height: 2;
+    font-size:20px;
+    font-weight: 500;
+}
+.guest-name-div{
+    font-size: 16px;
+    line-height: 1.9;
+}
+.guest-name-div>span{
+    font-weight: 500;
+    color: rgb(112, 112, 112);
+}
+#guest-name{
+    color: black;
+    float: right;
+}
+#guest-no{
+    font-size: 16px;
+}
+
+.guest-phone-div{
+    font-size: 16px;
+}
+.guest-phone-div>span{
+    font-weight: 500;
+    color: rgb(112, 112, 112);
+}
+#guest-no{
+    color: black;
+    float: right;
+}
+
+#booking-summary{
+    margin-top:10px;
+}
+#booking-summary>h5{
+    margin: 0;
+    line-height: 2;
+    font-size:20px;
+    font-weight: 500;
+}
+.b-status,.b-date-time,.b-total-guest,.b-guest-names,.b-guest-id{
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.b-status,.b-date-time,.b-total-guest,.b-guest-names,.b-guest-id>span{
+    font-weight: 500;
+    color: rgb(112, 112, 112);
+}
+
+.status{
+    width:100%;
+    text-align: right;
+    font-size: 16px;
+    line-height: 1.9;
+    font-weight: 500;
+    color: black;
+    float: right;
+}
+#status{
+    color: black;
+    float: right;
+}
+#date-time,#total-guest,#b-guest-name,#guest-id{
+    color: black;
+    float: right;
+}
+.b-hr{
+    width:100%;
+    background-color: #a0a0a0;
+    height: 3px;
+    border: 0px solid black;
+}
+
+
+
+
+
+

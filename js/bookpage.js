@@ -1,11 +1,12 @@
 import restaurant from '../components/restaurant.js';
-import photos from '../components/photos.js'
+import photos from '../components/photos.js';
+import booked from '../components/booked.js';
 
 var sliderContainer = document.getElementById('slider-container');
 var found;
 getData();
 async function getData(){
-        var url=" http://localhost:3000/restaurent"
+        var url="http://localhost:3000/products"
         var data=await fetchData(url);
         
         found=data.find(el=>el.id===1);
@@ -64,7 +65,7 @@ function displayData(data){
     let rupees=document.getElementById('rupees');
     rupees.innerText=data.costForTwo+" for 2";
     let foodType=document.getElementById('food-type');
-    foodType.innerText=data.foodType.join(", ");
+    foodType.innerText=data.foodType;
     let address=document.getElementById('address');
     address.innerText=data.address;
     let city=document.getElementById('city');
@@ -214,7 +215,7 @@ function gallary(data,phto){
     let prupees=document.getElementById('photos-rupees');
     prupees.innerText=data.costForTwo;
     let pfoodType=document.getElementById('photos-food-type');
-    pfoodType.innerText=data.foodType.join(", ");
+    pfoodType.innerText=data.foodType;
     let paddress=document.getElementById('photos-address');
     paddress.innerText=data.address;
     let pcity=document.getElementById('photos-city');
@@ -246,8 +247,16 @@ function gallary(data,phto){
         console.log(ele);
         let galaryImg=document.createElement('img');
         galaryImg.src=ele;
+        galaryImg.addEventListener('click',function(){
+            model(galaryImg.src);
+        });
         galaryGrid.append(galaryImg);
-    })
+    });
+
+    document.getElementById('back-button').addEventListener('click',function(){
+        sliderContainer.innerHTML=restaurant();
+        getData();
+    });
 }
 
 
@@ -302,6 +311,9 @@ function availableTimings(){
 
 }
 
-function continueGuest(){
+var continuebutton=document.getElementById('continue');
+continuebutton.addEventListener('click',function(){
+    let bookpageCont=document.getElementById('bookpage-container');
+    bookpageCont.innerHTML=booked();
 
-}
+});

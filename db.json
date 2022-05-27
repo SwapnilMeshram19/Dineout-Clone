@@ -1,74 +1,5 @@
 {
-    "restaurent":[{
-        "id":1,
-        "name":"Smoke Hub Barbeque",
-        "type":"Casual Dining",
-        "costForTwo":1800,
-        "menuImage":"https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/v/j/m89764-1651310905626d013995c21.jpg?tr=tr:n-xlarge",
-        "foodType":[
-            "North Indian",
-            "Chinease",
-            "Italian"
-        ],
-        "cuisine":["Chinese","Contiental","Thai","Italian"],
-        "bestSellngItems":["Chicken", "Chicken Lollipop", "Bbq Wings", "Juice", "Brownies"],
-        "address":"Thyagaraya Nagar",
-        "city":"Cehnnai",
-        "availableTimings":["10:05 AM","10:15 AM","10:20 AM","10:35 AM","11:00 AM","11:25 AM","12:30 PM"],
-        "openingTime":"12:00 PM",
-        "closingTime":"11:00 PM",
-        "rating":"3.7",
-        "about":"Locofeast is a casual dining restaurant, located at HM Centre 29, Nungambakkam High Road, Nungambakkam in Chennai. It serves excellent and delicious North Indian, Seafood and Chinese food. Their ambiance is very appealing with a wall full of paintings and photos on it. People mainly visit Locofeast for its adorable décor and tasty food. Their staff is very courteous, friendly and well trained. It is very moderately priced, and thus, is the perfect place for a weekend meal with your group of friends.",
-        "images":[
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/e/h/p89764-16171796726064341871b65.jpg?tr=tr:n-medium",
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/q/r/p89764-161717968060643420a33c8.jpg?tr=tr:n-medium",
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/m/v/p89764-1617179688606434284733d.jpg?tr=tr:n-medium",
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/l/i/p89764-1617179696606434309da60.jpg?tr=tr:n-medium",
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/x/r/p89764-16171797056064343973372.jpg?tr=tr:n-medium",
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/l/u/p89764-161717971360643441c3d1f.jpg?tr=tr:n-medium",
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/e/z/p89764-16171797226064344a0464e.jpg?tr=tr:n-medium",
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/w/n/p89764-162641124360f110ebc45e9.jpg?tr=tr:n-medium",
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/u/o/p89764-1617179730606434529aa0f.jpg?tr=tr:n-medium",
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/c/q/p89764-16171797386064345a4f3ee.jpg?tr=tr:n-medium",
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/w/n/p89764-162641124360f110ebc45e9.jpg?tr=tr:n-medium"
-        ],
-        "reviews":[] 
-    },
-    {
-        "id":2,
-        "name":"Locofeast",
-        "type":"Casual Dining",
-        "costForTwo":1800,
-        "menuImage":"https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/v/j/m89764-1651310905626d013995c21.jpg?tr=tr:n-xlarge",
-        "foodType":[
-            "North Indian",
-            "Chinease",
-            "Italian"
-        ],
-        
-        "address":"Thyagaraya Nagar",
-        "city":"Cehnnai",
-        "openingTime":"12:00 PM",
-        "closingTime":"11:00 PM",
-        "rating":"3.7",
-        "images":[
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/e/h/p89764-16171796726064341871b65.jpg?tr=tr:n-medium",
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/q/r/p89764-161717968060643420a33c8.jpg?tr=tr:n-medium",
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/m/v/p89764-1617179688606434284733d.jpg?tr=tr:n-medium",
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/l/i/p89764-1617179696606434309da60.jpg?tr=tr:n-medium",
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/x/r/p89764-16171797056064343973372.jpg?tr=tr:n-medium",
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/l/u/p89764-161717971360643441c3d1f.jpg?tr=tr:n-medium",
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/e/z/p89764-16171797226064344a0464e.jpg?tr=tr:n-medium",
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/w/n/p89764-162641124360f110ebc45e9.jpg?tr=tr:n-medium",
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/u/o/p89764-1617179730606434529aa0f.jpg?tr=tr:n-medium",
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/c/q/p89764-16171797386064345a4f3ee.jpg?tr=tr:n-medium",
-            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/w/n/p89764-162641124360f110ebc45e9.jpg?tr=tr:n-medium"
-        ],
-        "reviews":[]
 
-    }
-    ],
-    
     "products": [
       
 
@@ -78,8 +9,39 @@
             "location": "Punjabi Bagh, West Delhi",
             "price": 2500,
             "foodType": "North Indian, Continental, Asian",
-            "rating": 4.5
-          }, {
+            "rating": 4.5,
+            "images":[
+                "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/y/l/p57290-15579844835cdcf4e3df1ad.jpg?tr=tr:n-medium",
+                "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/e/g/p57290-15579844905cdcf4eab249b.jpg?tr=tr:n-medium",
+                "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/a/z/p57290-15579844975cdcf4f15a42e.jpg?tr=tr:n-medium",
+                "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/q/c/p57290-15600647595cfcb2f79e703.jpg?tr=tr:n-medium",
+                "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/z/q/p57290-15600647675cfcb2ffe61ab.jpg?tr=tr:n-medium",
+                "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/p/m/p57290-15600647745cfcb306ee2b9.jpg?tr=tr:n-medium",
+                "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/j/g/p57290-15600647825cfcb30e64dcb.jpg?tr=tr:n-medium",
+                "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/d/i/p57290-15600647895cfcb31521466.jpg?tr=tr:n-medium",
+                "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/b/h/p57290-15600647955cfcb31b900a4.jpg?tr=tr:n-medium",
+                "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/y/y/p57290-15600651305cfcb46a7ebec.jpg?tr=tr:n-medium",
+                "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/t/y/p57290-15600651565cfcb4849f091.jpg?tr=tr:n-medium",
+                "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/b/j/p57290-15600651375cfcb47148a8e.jpg?tr=tr:n-medium",
+                "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/a/l/p57290-15600651435cfcb47772f4b.jpg?tr=tr:n-medium",
+                "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/j/z/p57290-15579845055cdcf4f9e8088.jpg?tr=tr:n-medium"
+            ],
+            "about":"Doodle Garden is the ideal spot for family and friends. A favourite among youngsters, the restaurant offers a range of delicious North Indian, Italian and Continental. It offers a line of soups, salad, tandoori dishes, desserts and beverages. Spacious and well furnished ambience in a beautiful facade serviced by a team of cordial staff is what makes the restaurant an ideal destination for family gatherings. Based in Punjabi Bagh, West Delhi, Doodle Garden is the ultimate preference of food lovers for a great experience. ",
+            "openingTime":"12:00 PM",
+            "closingTime":"11:00 PM",
+            "availableTimings":["10:05 AM","10:15 AM","10:20 AM","10:35 AM","11:00 AM","11:25 AM","12:30 PM"],
+            "cuisine":["North Indian","Contiental","Asian"],
+             "bestSellngItems":["Chicken", "Chicken Lollipop", "Bbq Wings", "Juice", "Brownies"],
+            "address":"Punjabi Bagh",
+            "city":"Delhi",
+            "menuImage":"https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/n/f/m57290-15599804965cfb69d02f246.jpg?tr=tr:n-xlarge",
+            "id":1,
+            "name":"Doodle's Garden",
+            "type":"Casual Dining",
+            "costForTwo":1800,
+            "reviews":[]
+           
+            }, {
             "img": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/r/f/p57136-15625963485d2353fcef280.jpg?tr=tr:n-medium",
             "title": "Angooor",
             "location": "Punjabi Bagh, West Delhi",
