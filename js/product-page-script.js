@@ -1,5 +1,9 @@
+
+
 let productDetails=document.querySelector("#product-details");
 fetchData();
+
+
 
 
 async function fetchData(){
@@ -15,7 +19,6 @@ async function fetchData(){
         console.log(error, "Error in fatching data");
         
     }
-
 }
 
 function displayData(productDatas){

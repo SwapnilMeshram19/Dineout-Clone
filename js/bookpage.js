@@ -1,7 +1,10 @@
 import restaurant from '../components/restaurant.js';
 import photos from '../components/photos.js';
 import booked from '../components/booked.js';
+import navigation from '../components/navigation.js';
 
+let navbar=document.getElementById('nav-bar');
+navbar.innerHTML=navigation();
 var sliderContainer = document.getElementById('slider-container');
 var found;
 getData();
