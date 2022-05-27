@@ -1,10 +1,14 @@
 @import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
 
+body{
+    background-color: rgb(244,244,244);
+}
 #booked-container{
     width: 50%;
     margin: auto;
     font-family: "Metropolis","-apple-system,BlinkMacSystemFont","Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
-
+    background-color: white;
+    padding: 20px;
 
 }
 #booked-rest{
