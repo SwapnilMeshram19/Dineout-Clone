@@ -1,0 +1,25 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
+
+#booked-container{
+    width: 40%;
+    margin: auto;
+    font-family: "Metropolis","-apple-system,BlinkMacSystemFont","Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
+
+
+}
+#booked-rest{
+    text-align: center;
+
+}
+#b-res-name{
+    font-size: 28px;
+    color: #121212;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#b-res-address{
+    font-family: Metropolis Medium;
+    color: #a0a0a0;
+    font-size: 18px;
+}

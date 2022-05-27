@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookPage</title>
+    <link rel="stylesheet" type="text/css" href="./css/bookpage.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/photos.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/booked.css"/>
+
+    <script src="https://kit.fontawesome.com/c16d4da148.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="bookpage-container">
+        <div id="image-modal">
+            <i id="close" class="fa-solid fa-xmark"></i>
+            <img id="modal-img"/>
+        </div>
+        <div id="slider-container">
+            
+        </div>
+        <div id="booking-details-container">
+            <h5>Select an Offer or Deal</h5>
+            <div id="selected-date">
+                <span id="s-date"></span>
+                <span id="s-time"></span>
+            </div>
+            <div id="booking-scroll-container">
+            
+            <div class="select-date">
+                <h5>Select Date</h5>
+                <div class="calender">
+                    <div class="month">
+                        <span>May</span><br/>
+                        <img src="./images/calendar-img.webp"/>
+                    </div>
+                    <div class="days">
+                        <i class="fa-solid fa-angle-left" id="date-slide-left"></i>
+                        <div id="dates">
+                            <ul id="ul-container">
+                                <!-- <li>
+                                    <span class="day">Today</span>
+                                    <div class="date">22</div>
+                                </li> -->
+                            </ul>
+                        </div>
+                        <i class="fa-solid fa-angle-right" id="date-slide-right"></i>
+                    </div>   
+                </div>
+                <div id="selected-date">
+                    
+                </div>
+                <div class="timing-details">
+                    <div class="timetitle">Time</div>
+                    <p>Choose an available time slot</p>
+                    <div id="choose-timing">
+                       
+                    </div>
+                </div>
+                <div id="select-Guest-Container" >
+                    <h5>Select Guest/s</h5>
+                    <p>Choose the number of guest going</p>
+                    <div id="no-of-guest">
+                        <div class="g-title">Guests:</div>
+                        <i id="remove-guest" class="fa-solid fa-circle-minus"></i>
+                        <div id="guest-count">&nbsp;</div>
+                        <i id="add-guest" class="fa-solid fa-circle-plus"></i>
+                    </div>
+                </div>
+                <div class="booking-details">
+                    <h5>Enter Guest Details</h5>
+                    <input type="text" id="guestName" placeholder="Guest Name"/>
+                    <input type="number" id="mobileNo" placeholder="Mobile No."/>
+                    <div id="email-address">
+                        <i class="fa-solid fa-circle-plus" id="email-add-icon"></i> 
+                        <span id="add-email-text">&nbsp;&nbsp;Email Address (Optional)</span>
+                        <input type="email" id="email" placeholder="Email Id"/>
+                    </div>
+                    <div id="special-request">
+                        <i class="fa-solid fa-circle-plus" id="request-add-icon"></i> 
+                        <span id="add-request-text">&nbsp;&nbsp;Any Special request (Optional)</span> 
+                        <input type="email" id="request" placeholder="Special request (Optional)"/>
+                    </div>
+                </div>
+
+            </div>
+
+        </div> 
+        <button id="continue" onclick="continueGuest()">Continue</button>
+        </div>
+
+        
+        </div>    
+        </div>
+        
+    </div>
+
+    <div id="booked-container">
+        <div id="booked-rest">
+            <h1 id="b-res-name">Smoke Hub Barbeque</h1>
+            <div id="b-res-address">Thyagaraya Nagar, Central Chennai, Chennai,</div>
+        </div>
+
+        <div id="guest-details">
+            <h5>Guest Details</h5>
+            <div><span>Guest Name: </span><span id="guest-name">swapnil Meshram</span></div>
+            <div><span>Phone No.:</span><span id="guest-no">9595183013</span></div>
+        </div>
+        <div id="booking-summary">
+            <div><span>Table Status-Cheking</span><span> We are checking with the restaurant and will update your table status by <span id="check-date"></span> 10:00 PM</span></div>
+            <div><span>Date & Time</span><span id="date&time">28 may 2022 10:15AM</span></div>
+            <div><span>Guests</span><span id="total-guest">4 Guests</span></div>
+            <div><span>Name</span><span id="guest-name">Swapnil Meshram</span></div>
+            <div><span>ID</span><span id="guest-id">D016230546</span></div>
+        </div>
+
+    </div>
+    
+</body>
+
+
+<script type="module"src="./js/bookpage.js"></script>
+
+</html>

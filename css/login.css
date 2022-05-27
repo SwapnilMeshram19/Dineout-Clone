@@ -1,0 +1,159 @@
+body{
+    padding-left:550px;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+}
+#main{
+    width:450px;
+    height:370px;
+    border:none;
+    background-color:whitesmoke;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transition: all ease-in-out .2s;
+    top:-415px;
+}
+label #btn, label #cancel{
+    position:absolute;
+    cursor:pointer;
+    background-color: aqua;
+    border-radius: 3px;
+    
+
+}
+label #btn{
+    right:2px;
+    top:20px;
+    font-size:20px;
+    padding:6px 10px;
+    transition:all .2s ease;
+}
+label #cancel{
+    z-index: index 111;
+    right:1px;
+    top:-30px;
+    font-size:20px;
+    color:white;
+    transition: all .2s ease;;
+}
+
+
+
+
+
+
+
+
+
+
+
+#email,#name{
+    width:350px;
+    height:30px;
+    border-radius:5px;
+    border:none;
+}
+#continue,#sign{
+    width:360px;
+    height:40px;
+    border:none;
+    cursor:pointer;
+    background-color: rgb(234, 82, 62);
+    color:white;
+    font-size:15px;
+    margin-top:-90px;
+}
+.fb,.gg{
+    width:50px;
+    height:30px;
+    margin-left:10px;
+}
+.logo{
+    display:flex;
+   /* flex-direction: row; */
+   grid-gap:20px;
+   margin-left:50px;
+   margin-bottom: 100px;
+
+    
+}
+.logo > div{
+/* border:1px solid black; */
+width:165px;
+height:30px;
+display:flex;
+}
+
+#facebook{
+    
+    background-color:#31508e;
+    color:white;
+    border:none;
+    margin-right:50px;
+    cursor:pointer;
+}
+#google{
+    border:none;
+    font-size: 15px;
+    cursor:pointer;
+    margin-right:20px;
+    background-color:whitesmoke;
+    color:rgb(80, 64, 44)
+
+}
+#one{
+    background-color:rgb(46, 46, 116);
+    background-color: #31508e;
+    border-radius:4px;
+    height:34px;
+
+}#two{
+    background-color:whitesmoke;
+    border:1px solid rgb(170, 167, 164);
+    border-radius:4px;
+}
+#title{
+    margin-top:50px;
+    margin-right:180px;
+    color:orangered;
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+#close{
+  margin-left:370px;
+  
+}
+
+#close:before, #close:after { 
+position: absolute;
+margin-top:40px;
+content: ' ';
+height: 29px;
+width: 2px;
+background-color: #333;
+}
+#close:before {
+transform: rotate(45deg);
+}
+#close:after {
+transform: rotate(-45deg);
+}
+hr{
+    width:380px;
+    margin-bottom:30px;
+}
+#otp{
+    width:190px;
+    height:30px;
+    border-radius:5px;
+    border:none;
+    margin-right:160px;
+    margin-top:50px;
+}
+#head{
+    margin-top:60px;
+    margin-right:270px;
+    color:orangered;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+ }

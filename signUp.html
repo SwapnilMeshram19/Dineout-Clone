@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp page</title>
+    <link rel = "stylesheet" href = "/css/login.css">
+</head>
+
+ 
+</style>
+<body>
+    <!-- <h1>This is signUp  page</h1> -->
+
+   <div id = "main">
+    <a href = "#" id = "close"></a>
+    <h2 id = "head">Sign Up</h2>
+   
+    <form id=" form"> <input type = "text"placeholder = "Enter your name" id = "name" required><hr id ="line">
+      <input type = "number" style = "margin-right:190px;border:none"placeholder = "Enter your phone number" id = "number" required><hr id = "line"><br>
+    
+    <p style = "color:rgb(113, 111, 108);margin-top:-23px;margin-right:80px;">Your name will be verified in the next step</p>
+        <button onclick = 'signUP()'id = "sign">Sign Up</button></form></div>
+</body>
+</html>
+<script>
+      var closebtn = document.getElementById("close");
+  closebtn.addEventListener("click", function() {
+    this.parentElement.style.display = 'none';
+  });
+
+ function signUP(){
+const name = document.getElementById('name').value;
+const number = document.getElementById('number').value;
+
+    console.log(number.length)
+   if(name=="" || number.length>10){
+       alert ('please input a valid username or password')
+   }
+   if(name.length>=1 && number.length==10){
+    window.location.href = "otp.html";
+
+       alert("signup completed")
+   }
+ 
+};
+</script>

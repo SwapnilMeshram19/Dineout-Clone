@@ -1,0 +1,219 @@
+{
+    "restaurent":[{
+        "id":1,
+        "name":"Smoke Hub Barbeque",
+        "type":"Casual Dining",
+        "costForTwo":1800,
+        "menuImage":"https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/v/j/m89764-1651310905626d013995c21.jpg?tr=tr:n-xlarge",
+        "foodType":[
+            "North Indian",
+            "Chinease",
+            "Italian"
+        ],
+        "cuisine":["Chinese","Contiental","Thai","Italian"],
+        "bestSellngItems":["Chicken", "Chicken Lollipop", "Bbq Wings", "Juice", "Brownies"],
+        "address":"Thyagaraya Nagar",
+        "city":"Cehnnai",
+        "availableTimings":["10:05 AM","10:15 AM","10:20 AM","10:35 AM","11:00 AM","11:25 AM","12:30 PM"],
+        "openingTime":"12:00 PM",
+        "closingTime":"11:00 PM",
+        "rating":"3.7",
+        "about":"Locofeast is a casual dining restaurant, located at HM Centre 29, Nungambakkam High Road, Nungambakkam in Chennai. It serves excellent and delicious North Indian, Seafood and Chinese food. Their ambiance is very appealing with a wall full of paintings and photos on it. People mainly visit Locofeast for its adorable décor and tasty food. Their staff is very courteous, friendly and well trained. It is very moderately priced, and thus, is the perfect place for a weekend meal with your group of friends.",
+        "images":[
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/e/h/p89764-16171796726064341871b65.jpg?tr=tr:n-medium",
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/q/r/p89764-161717968060643420a33c8.jpg?tr=tr:n-medium",
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/m/v/p89764-1617179688606434284733d.jpg?tr=tr:n-medium",
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/l/i/p89764-1617179696606434309da60.jpg?tr=tr:n-medium",
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/x/r/p89764-16171797056064343973372.jpg?tr=tr:n-medium",
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/l/u/p89764-161717971360643441c3d1f.jpg?tr=tr:n-medium",
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/e/z/p89764-16171797226064344a0464e.jpg?tr=tr:n-medium",
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/w/n/p89764-162641124360f110ebc45e9.jpg?tr=tr:n-medium",
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/u/o/p89764-1617179730606434529aa0f.jpg?tr=tr:n-medium",
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/c/q/p89764-16171797386064345a4f3ee.jpg?tr=tr:n-medium",
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/w/n/p89764-162641124360f110ebc45e9.jpg?tr=tr:n-medium"
+        ],
+        "reviews":[] 
+    },
+    {
+        "id":2,
+        "name":"Locofeast",
+        "type":"Casual Dining",
+        "costForTwo":1800,
+        "menuImage":"https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/v/j/m89764-1651310905626d013995c21.jpg?tr=tr:n-xlarge",
+        "foodType":[
+            "North Indian",
+            "Chinease",
+            "Italian"
+        ],
+        
+        "address":"Thyagaraya Nagar",
+        "city":"Cehnnai",
+        "openingTime":"12:00 PM",
+        "closingTime":"11:00 PM",
+        "rating":"3.7",
+        "images":[
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/e/h/p89764-16171796726064341871b65.jpg?tr=tr:n-medium",
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/q/r/p89764-161717968060643420a33c8.jpg?tr=tr:n-medium",
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/m/v/p89764-1617179688606434284733d.jpg?tr=tr:n-medium",
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/l/i/p89764-1617179696606434309da60.jpg?tr=tr:n-medium",
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/x/r/p89764-16171797056064343973372.jpg?tr=tr:n-medium",
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/l/u/p89764-161717971360643441c3d1f.jpg?tr=tr:n-medium",
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/e/z/p89764-16171797226064344a0464e.jpg?tr=tr:n-medium",
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/w/n/p89764-162641124360f110ebc45e9.jpg?tr=tr:n-medium",
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/u/o/p89764-1617179730606434529aa0f.jpg?tr=tr:n-medium",
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/c/q/p89764-16171797386064345a4f3ee.jpg?tr=tr:n-medium",
+            "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/w/n/p89764-162641124360f110ebc45e9.jpg?tr=tr:n-medium"
+        ],
+        "reviews":[]
+
+    }
+    ],
+    
+    "products": [
+
+        {
+            "img": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/y/l/p57290-15579844835cdcf4e3df1ad.jpg?tr=tr:n-medium",
+            "title": "Doodle's Garden",
+            "location": "Punjabi Bagh, West Delhi",
+            "price": 2500,
+            "foodType": "North Indian, Continental, Asian",
+            "rating": 4.5
+          }, {
+            "img": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/r/f/p57136-15625963485d2353fcef280.jpg?tr=tr:n-medium",
+            "title": "Angooor",
+            "location": "Punjabi Bagh, West Delhi",
+            "price": 2700,
+            "foodType": "North Indian, Continental, Asian",
+            "rating": 2.7
+          }, {
+            "img": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/9/v/q/p97147-164680862762284e339c25d.jpg?tr=tr:n-medium",
+            "title": "One8 Commune",
+            "location": "Punjabi Bagh, West Delhi",
+            "price": 2500,
+            "foodType": "North Indian, Continental, Asian,Pizza",
+            "rating": 2.9
+          }, {
+            "img": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/2/s/s/p20862-161484332560408dbdc0b57.jpg?tr=tr:n-medium",
+            "title": "D.A.D - Drink and Dine",
+            "location": "Club Road, Punjabi bagh, West Delhi",
+            "price": 2400,
+            "foodType": "North Indian, Continental, Asian",
+            "rating": 3.4
+          }, {
+            "img": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/9/t/q/p991-1462617311572dc4df44f5a.jpg?tr=tr:n-medium",
+            "title": "Soo Yung By The Backyard",
+            "location": "Punjabi Bagh, West Delhi",
+            "price": 2200,
+            "foodType": "North Indian, Continental, Asian",
+            "rating": 2.2
+          }, {
+            "img": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/7/e/x/p75682-1613637972602e295495efb.jpg?tr=tr:n-medium",
+            "title": "TEO - Lounge & Bar",
+            "location": "Punjabi Bagh, West Delhi",
+            "price": 2200,
+            "foodType": "North Indian, Continental, Asian",
+            "rating": 3.1
+          }, {
+            "img": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/7/d/v/p78171-1646031890621c741226c74.jpg?tr=tr:n-medium",
+            "title": "Radioactive Cafe",
+            "location": "Club Road, Punjabi Bagh, West Delhi",
+            "price": 2500,
+            "foodType": "North Indian, Continental, Asian, Itallian",
+            "rating": 3.7
+          }, {
+            "img": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/2/f/s/p2669-1499666296596317787f36d.jpg?tr=tr:n-medium",
+            "title": "Work in the Clouds",
+            "location": "Punjabi Bagh, West Delhi",
+            "price": 600,
+            "foodType": "North Indian, Continental, Asian",
+            "rating": 2.2
+          }, {
+            "img": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/h/n/p89808-161536749760488d4985a16.jpg?tr=tr:n-medium",
+            "title": "Shakespeare Bistro & Bar",
+            "location": "Punjabi Bagh, West Delhi",
+            "price": 1700,
+            "foodType": "North Indian, Continental, Asian",
+            "rating": 4.7
+          }, {
+            "img": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/4/l/s/p49012-15477305465c407e728a459.jpg?tr=tr:n-medium",
+            "title": "AIR An Ivory Region",
+            "location": "Punjabi Bagh, West Delhi",
+            "price": 1100,
+            "foodType": "North Indian, Continental, Asian",
+            "rating": 4.9
+          }, {
+            "img": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/2/r/g/p23721-15760498075df09c8f0f2c7.jpg?tr=tr:n-medium",
+            "title": "Raftaar - The High Speed Bar",
+            "location": "Punjabi Bagh, West Delhi",
+            "price": 900,
+            "foodType": "North Indian, Continental, Asian",
+            "rating": 2.2
+          }, {
+            "img": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/2/j/w/p29133-161114525060082022aabe5.jpg?tr=tr:n-medium",
+            "title": "Eagle Lounge and Bar",
+            "location": "Punjabi Bagh, West Delhi",
+            "price": 1600,
+            "foodType": "North Indian, Continental, Asian",
+            "rating": 2.2
+          }, {
+            "img": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/3/y/r/p33195-1644824405620a0755059e5.jpg?tr=tr:n-medium",
+            "title": "Sixth Empirica",
+            "location": "Punjabi Bagh, West Delhi",
+            "price": 3200,
+            "foodType": "North Indian, Continental, Asian",
+            "rating": 2.9
+          }, {
+            "img": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/4/n/b/p45139-1629623545612214f9d54e9.jpg?tr=tr:n-medium",
+            "title": "Addiction",
+            "location": "Punjabi Bagh, West Delhi",
+            "price": 800,
+            "foodType": "North Indian, Continental, Asian",
+            "rating": 4.8
+          }, {
+            "img": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/p/v/p58534-16444664916204913b56d95.jpg?tr=tr:n-medium",
+            "title": "Clue",
+            "location": "Punjabi Bagh, West Delhi",
+            "price": 2600,
+            "foodType": "North Indian, Continental, Asian",
+            "rating": 3.1
+          }, {
+            "img": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/7/e/u/p75132-1630312492612c982c6b708.jpg?tr=tr:n-medium",
+            "title": "Breath - Fine Lounge and Bar",
+            "location": "Punjabi Bagh, West Delhi",
+            "price": 2000,
+            "foodType": "North Indian, Continental, Asian",
+            "rating": 4
+          }, {
+            "img": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/6/b/d/p656-145733251356dd2121e7d60.jpg?tr=tr:n-medium",
+            "title": "Sura Vie",
+            "location": "Punjabi Bagh, West Delhi",
+            "price": 3400,
+            "foodType": "North Indian, Continental, Asian",
+            "rating": 3.5
+          }, {
+            "img": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/9/h/c/p949-14932924475901d59f805ac.jpg?tr=tr:n-medium",
+            "title": "Nando's",
+            "location": "Punjabi Bagh, West Delhi",
+            "price": 1800,
+            "foodType": "North Indian, Continental, Asian",
+            "rating": 2.7
+          }, {
+            "img": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/3/g/p/p32635-15455706235c1f893f286ae.jpg?tr=tr:n-medium",
+            "title": "TCRC - The Club Road Cafe",
+            "location": "Punjabi Bagh, West Delhi",
+            "price": 1900,
+            "foodType": "North Indian, Continental, Asian",
+            "rating": 4.6
+          }, {
+            "img": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/3/a/e/p37720-1631526329613f1db9a7488.jpg?tr=tr:n-medium",
+            "title": "Vernadah Moonshine",
+            "location": "Punjabi Bagh, West Delhi",
+            "price": 1700,
+            "foodType": "North Indian, Continental, Asian",
+            "rating": 4.8
+          }
+
+    ]
+
+
+}

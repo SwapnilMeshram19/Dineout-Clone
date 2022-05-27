@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Sign Up</title>
+    <link rel ="stylesheet" href = "./css/login.css">
+</head>
+ 
+
+<body>
+ 
+  <!-- <h1>Login Page</h1> -->
+ <div id = "main">
+     <a href = "#" id = "close"></a>
+     <h2 id = "title">Log In / Sign Up</h2>
+   <form><input type = "email" placeholder="Enter Mobile number or Email " id="email" required><hr>
+ <button id = "continue"onclick = 'Login()'>continue</button></form>
+ <p>__________________Or login via  _______________</p>
+
+ <div class = "logo">
+    <div id = "one"><img  class = "fb"src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/2048px-Facebook_logo_36x36.svg.png">
+         <button id = "facebook"> Facebook</button></div>
+
+      <div id= "two"><img  class = "gg"src = "https://cdn2.hubspot.net/hubfs/53/image8-2.jpg">
+         <button id = "google">Sign in</button></div>
+     
+    
+ </div>
+ </div>
+</body>
+</html>
+<script>
+    var closebtn = document.getElementById("close");
+  closebtn.addEventListener("click", function() {
+    this.parentElement.style.display = 'none';
+  });
+
+
+    
+
+
+    function Login(){
+      const email= document.getElementById('email').value;
+      console.log(email,email.length)
+
+      if(email.length<10){
+        alert('enter your email')
+
+      }
+      else{
+        window.location.href='signUp.html'
+
+        alert('login successful')
+
+      }
+
+    }
+    
+</script>

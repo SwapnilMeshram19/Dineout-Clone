@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog page</title>
+</head>
+<style>
+    
+    #content{
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap:10px;
+            /* width:400px;; */
+            border:none;
+            background-color: whitesmoke;
+            height:900px;
+            
+
+    }
+    #content > div{
+        border:1px whitesmoke;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        /* margin-left:10px; */
+        /* height:120%; */
+        
+    }
+    #images{
+        width:100%;
+        height:50%;
+
+    }
+    p{
+        color:rgb(98, 97, 95);
+        font-size:15px;
+        margin-left:20px;
+        /* text-align: center; */
+    }
+    h3{
+        margin-left: 15px;;
+    }
+    #divide{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* border:1px solid black; */
+        grid-gap:20px;
+
+    }
+    #divide > div{
+        border:1px solid rgb(222, 211, 211);
+    }
+    #first{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 40px;
+        /* grid-gap:20px; */
+        /* border:1px solid black; */
+        margin-left:30px;
+    }
+    #first > div{
+        /* border:1px solid black; */
+        grid-gap:10px;
+    }
+    #date{
+        font-size:12px;
+    }
+    button{
+        display:grid;
+        /* border:1px solid black; */
+        width:850px;
+        /* margin-top:20px; */
+        /* margin-bottom:20px; */
+        /* padding:20px; */
+        height:50px;
+        font-size:20px;
+        background-color:white;
+        border:1px solid rgb(164, 162, 159);
+    }
+    #second{
+        margin-top: 45px;;
+    }
+    #small{
+        font-family:Arial, Helvetica, sans-serif;
+        margin-right:20px;
+    }
+    .two_images{
+        /* grid-template-columns: repeat(1,1fr); */
+        width:100%
+    }
+    p{
+        margin-right:90px;
+    }
+    #content img{
+        transform: scale(0.9);
+        transform:0.4s ease-in-out;
+    }
+    #content:hover img{
+        transform: scale(1.0);
+        cursor:pointer;
+    }
+    #border{
+        display:flex;
+        flex-direction: column;
+        border:1px solid rgb(206, 198, 198);
+        background-color: whitesmoke;
+        padding:20px;
+        /* width:300px; */
+        margin-bottom:40px;
+    }
+    #border > div {
+        margin-left:90px;
+    }
+   a{
+       color:black;
+       grid-gap:60px;
+       margin-left:30px;
+       font-size:20px;
+       /* margin-bottom:60px; */
+       text-decoration: none;
+       
+   }
+</style>
+<body>
+<!-- navbar -->
+<div id= "border">
+<div id=" navbar">
+    <a href = "Dineout passport.html">Dineout passport</a>
+    <a href = " Corporate updates.html">Corpotate updates</a>
+    <!-- <a href = "Dineot cites.html">Dineot Cities</a> -->
+    <!-- <a href = "Top homechefs.html">Top homeChefs</a> -->
+</div>
+</div>
+
+
+
+
+
+
+
+
+    <div id = "content">
+        <div>
+            <img  id = "images"src = "https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2022/05/blog_lead-705x268.jpg">
+             <h3>Smoke House Deli Is Here To Redfine Healthy With Its Delish Menu!</h3>
+            <p>Touted as the county's favourite European cafe, Smoke House....</p>
+            <p id = "date">27th April 2022</p>
+
+        </div>
+        <div>
+            <img id = "images" src = "https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2022/05/Untitled-design-6-705x268.png">
+            <h3>Quiz:Which Cocktail you should Have on this Cocktail Day?</h3>
+            <p>Summer is at its peak and we know you need something to cool...</p>
+            <p id = "date">12th May2022</p>
+        </div>
+        <div>      
+            <img  id = "images" src = "https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2022/05/bb-2-705x268.png">
+           <h3>Time For Moms To take A Break At The Best Restaurent In Delhi</h3>
+           <p>Mommiwes, we know you don't get the credit youdeserve.you...</p>
+           <p id = "date">6th May 2022</p>
+       
+         </div>
+
+        <div>
+            <img  id = "images"src = "https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2022/05/TSL-Blog-705x268.jpg">
+           <h3>There's Never A Dull Moment At The Beer Cafe Offering The Largest Variety of Beers!
+               <p>Offer:Flat 15% off the total bill An instant hit amongest...</p>
+               <p id = "date">5th May 2022</p>
+           </h3>
+        </div>
+        <div>
+            <img id = "images" src = "https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2022/04/BB-1-705x268.png">
+            <h3>This stunning Open-Air Restaurent in south Delhi is the perfect place To Beat The Heat</h3>
+            <p>Summers and open-air setups have a longstanding bond that still...</p>
+            <p id = "date">4th May 2022</p>
+        </div>
+        <div>
+            <img  id = "images"src = "https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2022/04/lead-705x268.jpg">
+             <h3>The Perfect Weather For Chilled Cocktails; Here Are A Few Favourites!</h3>
+            <p>Summer is here and the temperatures are on the rise! The only....</p>
+            <p id = "date">29th April 2022</p>
+        </div>
+        <div>
+            <img  id = "images" src = "https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2022/04/BlogBanner-5-705x268.jpg">
+             <h3>Treat yourself To An Authentic South Indian Culinary Experience AT Padmanabham</h3>
+             <p>Offer:Flat 10% off the total bill</p>
+             <p>If you are looking for...</p>
+             <p id = "date">29th April 2022</p>
+        </div>
+        <div>
+            <img  id = "images" src = "https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2022/04/blog_1-705x268.jpg">
+            <h3>Beat The Heat with Chilled Cocktails At The Besst Bears In Delhi</h3>
+            <p>To a foodie, summer means one thing only - Drinks! YES...</p>
+            <p v>28th April 2022</p>
+        </div>
+
+
+    </div>
+
+
+    <!-- //second -->
+
+
+
+    <div id = "divide">
+        <div id = "first">
+          <div>
+              <img src = "https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2022/04/Nomimono_Blog.jpg">
+              <h3>For A Never Ending Nom Nom Sesh Visit Nomimono</h3>
+              <p id = "date">8th April 2022/by Mohana Chakraborty</p>
+              <p>Offer: Flat 20% off the total bill A Japanese word for ‘drink’, ‘beverage’, or ‘something to drink’ in general, Nomimono offers much more than just drinks. A Pan Asian wonder, Nomimono is a casual dining restaurant that is a heaven for Asian cuisine lovers.  
+                 A Closer Look Conceptualised and adorned with quirky furniture, snazzy […]</p>
+            <button>Read More</button>
+            </div>
+
+            <div>
+                <img src = "https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2022/04/Blog.png">
+                <h3>This Should be Your Signature Summer Drink Based on Your Zodiac Sign</h3>
+                <p  id = "date">8th April 2022/by Shivangi Goel</p>
+                <p>Chilled beers, fruity cocktails, sparkling sodas, and milkshakes are synonymous with summers. After all, they are a perfect antidote to the scorching heat of the sun. And, so if you’re having a hard time picking an ideal 
+                    summer drink to go well with your menu, we’re here to help you.  Well, how about choosing a […]</p>
+                     <button>More</button>
+            </div>
+
+            <div>
+                <img src = "https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2022/04/blog1.jpg">
+                <h3>World Health Day: 11 ways to make your dining experience healthier at restaurants</h3>
+                <p  id = "date">7th April 2022/by Dineout Passport</p>
+                <p>Keto diets, intermittent fasting, conscious eating, veganism and more…All these food trends seem to be taking over the world and the followers of these trends have demonised those of us who enjoy eating out! Well, 
+                    this World Health Day, we want you to know that eating out is not a bad thing! In fact, with […]</p>
+                     <button>Read More</button>
+            </div>
+
+            <div>
+              <img src = "https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2022/03/DP_The_Lodhi_lead.jpg">
+             <h3>Dineout Passport Experiences: Celebrating Femtastic 3.0 for a gender equal future at The Lodhi, New Delhi</h3>
+             <p  id = "date">29th March 2022/by Dineout Passport</p>
+             <p>Come March and the focus draws sharper on women. International Women’s Day celebrates and applauds the social, economic, cultural and political achievements of women. The ethos at Dineout Passport resonates deeply with the
+                 ideology of Gender Equal Future and in the Femtastic 3.0 event held at the Plantation Café (The Lodhi), the evening opened with […]</p>
+                 <button>ReadMore</button>
+            </div>
+
+           <div>
+               <img src = "https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2022/03/Blog-Banner-1.jpg">
+               <h3>PettinOut: The Ultimutt Pet Event For You and Your Dog</h3>
+               <P  id = "date">24th March 2022/by Nandini Poddar</P>
+               <p>SteppinOut by Dineout, in association with Heads Up For Tails, brings to you PettinOut—the best pet event in your city along with some great stuff for your furry family. While this will be an excellent hangout for pet 
+                   parents such as yourself, pet lovers can also come here and have a good time. And it […]</p>
+                  <button>Read More</button>
+            </div>
+
+            <div>
+                <img src = "https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2022/03/Blog-Banner.png">
+                <h3>Feel The Beat of Live Music with Stereo Nights in Delhi </h3>
+                <p  id = "date">24th March 2022/by Nandini Poddar</p>
+                <P>Get ready for a weekend full of flamboyant live music with Stereo Nights in Delhi! We all know that the people in Delhi enjoy live music. So behold, here is a list of restaurants who host live music in Delhi! 
+                    With the perfect food and some dancing over live music, the Stereo Nights at Clue […]</P>
+                     <button>Read More</button>
+            </div>
+
+            <div>
+                <img src = "https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2022/03/water_edit_2.jpg">
+                <h3>World Water Day: Celebrating the most underrated liquid</h3>
+                <p  id = "date">22nd March 2022/by Dineout Passport</p>
+                <P>On this World Water Day, we want to highlight all the reasons that make this humble liquid everything it is. It’s a common fact that water is a life-giver but apart from that, we bet there are some facts about water
+                     that you were not aware of. Here are a few!  Maximizing physical performance Your […]</P>
+                     <button>Read More</button>
+            </div>
+
+            <div>
+                <img src = "https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2022/03/dineout_blog_holi_chandigarh_1.jpg">
+                <h3>
+                    A colourful dining experience awaits you at these picture-perfect restaurants in Chandigarh
+                </h3>
+                <p  id = "date">18th March 2022/by Dineout Passport</p>
+                <P>There’s no greater chance to celebrate the Holi festivities than now, because this year, Holi is immediately followed by a fun weekend. We know you’re going to be ravenous after scrubbing all that gulaal off. 
+                    Don’t worry! We’ve got you covered with these fantastic restaurants! Remember to keep the Holi spirit in mind while you gobble down […]</P>
+                     <button>Read more</button>
+            </div>
+
+            <div>
+                <img src = "https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2022/03/dineout_passport_holi_blog_1.jpg">
+                <h3>Celebrate your Holi weekend at these colourful restaurants in Mumbai</h3>
+                <p  id = "date">8th March 2022/by Dineout Passport</p>
+                <p>Holi this year is doubly special because it falls just before a weekend. We know you’ve been waiting to avenge all those water balloon attacks and obviously, once you’re done, you will need a 
+                    place to kick back and relax at. We have here a list of restaurants for you to experience the various colours […]</p>
+                    <button>Read More</button>
+            </div>
+
+            <div>
+                 <img src="https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2022/03/blog_1.jpg">
+                <h3>Experience a fantastic Holi weekend at these Gram-worthy Restaurants in Delhi</h3>
+                <p  id = "date">17th March 2022/by Dineout Passport</p>
+                <p>This year’s Holi festivities get bigger and better as the festival of colour adds to the long & relaxing weekend. If you’re looking forward to a relaxing weekend with your loved ones, we’ve got 
+                    you covered! Don’t forget to keep the Holi spirit in mind as you colour your plate with delicious specialties! Connaught Clubhouse […]</p> 
+                      <button>Read More</button>
+            </div> -->
+
+
+        </div>
+
+        <div id = "second">
+            <h3>FRESH OUT OF THE OVEN</h3>
+            <p id = "small">Garma-Garam and Tez All Your Manpasand Treats Are Now At Joshh! 20th May 2022</p><hr>
+            <p id = "small">It’s Time To Indulge in Delectable Gourmet Delights at One Atria Offering Flat 50% Off On Buffet 20th May 2022</p><hr>
+            <p id=" small">Drop By These Cool Spots In Surat For Their Spectacular Ambience And Lavish Buffet Spread 12th May 2022</p><hr>
+            <p id="small">Check Out These Amazing Restaurants in Kolkata Serving Mouth Watering Food</p><hr>
+            <p id="small">Quiz: Which Cocktail You Should Have on This Cocktail Day? 12th May 2022</p><hr>
+
+            <h4>FACEBOOK</h4>
+            <img class= "two_images" src = "https://scontent.fhyd11-2.fna.fbcdn.net/v/t1.6435-9/166904322_4035951679830741_1958596563261438433_n.jpg?stp=dst-jpg_p130x130&_nc_cat=110&ccb=1-7&_nc_sid=dd9801&_nc_ohc=y4HK3J3TDW0AX_c_uB3&_nc_ht=scontent.fhyd11-2.fna&edm=AItmks8EAAAA&oh=00_AT_UC5X056lAwz6l1ZDbk430LEgpebjyzah2tYpW-p-JoQ&oe=62B0F844">
+            <img  class= " two_images" style = "height:5%"src = "https://scontent.fhyd11-1.fna.fbcdn.net/v/t39.30808-6/283294386_5356217514470811_4677498023781731635_n.jpg?stp=dst-jpg_s851x315&_nc_cat=100&ccb=1-7&_nc_sid=8024bb&_nc_ohc=LRsuWFIKyz0AX-oX4st&_nc_ht=scontent.fhyd11-1.fna&oh=00_AT8LNTTOWw04xRN2zVNT_pdmgNrgDw_6Uo9Su6JHDu0FgQ&oe=6291E554">
+        </div>
+    </div>
+</body>
+</html>
+
+

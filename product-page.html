@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="./css/product-page-style.css">
+</head>
+
+<body>
+    <div id="main-container">
+        <div id="feature-container">
+            <!-- implement checkbod -->
+            <div class="left-feature">
+                <h4 class="sub-head">Quick Filters</h4>
+                <div class=content><input id="search" type="text" placeholder="Search">
+                    <label class="check-container">
+                        <input class="check" type="checkbox" >
+                        <span class="checkmark"> Dineout Pay
+                        </span>
+                    </label>
+
+                    <label class="check-container">
+                        <input class="check" type="checkbox" >
+                        <span class="checkmark"> Pure Veg </span>
+
+                    </label>
+
+                    <label class="check-container">
+                        <input class="check" type="checkbox" >
+                        <span class="checkmark"> 5 STar</span>
+
+                    </label>
+
+                    <label class="check-container">
+                        <input class="check" type="checkbox" >
+                        <span class="checkmark"> Buffet </span>
+
+                    </label>
+
+                    <p>Show More ...</p>
+                </div>
+            </div>
+
+            <!-- // cusines implement   search two -->
+            <div class="left-feature">
+                <h4 class="sub-head">Cuisines</h4>
+                <div class="content"><input type="text" id="search" placeholder="Search For Cuisine">
+                    <p >North Indian</p>
+                    <p >Chinese</p>
+                    <p>South Indian</p>
+                    <p>Fast Food</p>
+                    <p >Show More ...</p>
+                </div>
+            </div>
+            <!-- // Tags implement   search three-->
+            <div class="left-feature">
+                <h4 class="sub-head">Tags</h4>
+                <div class="content"><input id="search" type="text" placeholder="Search">
+                    <label class="check-container">
+                        <input class="check" type="checkbox" >
+                        <span class="checkmark"> Causual Dining
+                        </span>
+                    </label>
+
+                    <label class="check-container">
+                        <input class="check" type="checkbox" >
+                        <span class="checkmark">Pure Veg </span>
+
+                    </label>
+
+                    <label class="check-container">
+                        <input class="check" type="checkbox" >
+                        <span class="checkmark"> Best Pure Veg</span>
+
+                    </label>
+
+                    <label class="check-container">
+                        <input class="check" type="checkbox" >
+                        <span class="checkmark"> Best of Food 2021 </span>
+
+                    </label>
+
+                    <p>Show More ...</p>
+                </div>
+
+            </div>
+            <!-- // Fetures implement    search four -->
+            <div class="left-feature">
+                <h4 class="sub-head">Features</h4>
+                <div class="content"><input type="text" id="search" placeholder="Search">
+                    <label class="check-container">
+                        <input class="check" type="checkbox" >
+                        <span class="checkmark">Card Accepted</span>
+
+                    </label>
+                    <label class="check-container">
+                        <input class="check" type="checkbox" >
+                        <span class="checkmark"> Air Conditioned</span>
+
+                    </label>
+                    <label class="check-container">
+                        <input class="check" type="checkbox" >
+                        <span class="checkmark"> Home Delivery</span>
+
+                    </label>
+                    <label class="check-container">
+                        <input class="check" type="checkbox" >
+                        <span class="checkmark"> Wallet Accepted</span>
+
+                    </label>
+                    <p>Show More ...</p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- // implement product sho  -->
+        <div id="product-container">
+            <p style="color:#8f8f8f">Dineout > Delhi > Delhi Resaurants</p>
+            <div id="nav-title">
+
+                <p>Best Restaurants Near Me in Delhi</p>
+                <div style="display: flex;justify-content: center;align-items: center;gap: 10px;">
+                    <label for="SortBy">Sort By</label>
+                    <select name="SortBy" id="sortby">
+
+
+                        <option value="Popularity">Popularity</option>
+                        <option value="Rating">Rating</option>
+                        <option value="Price: Low to High">Price: Low to High</option>
+                        <option value="Price: High to Low">Price: High to Low</option>
+                    </select>
+
+                </div>
+            </div>
+            <div id="product-details"></div>
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+<script src="./js/product-page-script.js"></script>

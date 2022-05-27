@@ -1,0 +1,136 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
+
+#photos-container{
+    width:100%;
+    margin-left: 7%;
+    font-family: Metropolis,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+#photos-container>div{
+    width:90%;
+    background-color: white;
+}
+
+#photos-details{
+    width: 94%;
+    position: relative;
+    overflow: hidden;
+    transition:white 50s ease-in-out;
+    background-color: white;
+    padding: 20px;
+}
+
+
+#photos-img{
+    width:38%;
+    height: 170px;
+    transition:white 50s ease-in-out;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#photos-details>div{
+    vertical-align: top;
+    display: inline-block;
+}
+
+.photos-restaurant-details{
+    width:35%;
+    padding: 10px;
+
+}
+.photos-restaurant-details>div{
+    font-size: 14px;
+    color: #464545;
+    font-weight: 500;
+}
+
+.address{
+    padding-bottom: 20px;
+}
+#photos-name{
+    margin: 0;
+    font-size: 21px;
+    color: #202020;
+    font-weight: 600;
+    font-family: 'Metropolis', Bold;
+    padding-bottom: 8px;
+}
+.photos-restaurant-details>div>i{
+    font-size: 13px;
+    color: black;
+}
+.photos-restaurant-details>div>#photos-rupees{
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    line-height: 1.8;
+}
+
+.photos-review-rating{
+    float: right;
+    text-align: right;
+    width: 9%;
+    margin-left: 20px;
+}
+
+#photos-rating{
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgb(179,202,66);
+    color:#fff;
+    padding:10px 12px;
+    font-size: 18px;
+    font-weight: 700;
+}
+#photos-rating~div{
+    font-size: 12px;
+    padding-top: 5px;
+    color: rgb(53,149,255);
+    font-family: "metropolis",Bold;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.galary{
+    width: 100%;
+    background-color: white;
+    
+}
+hr{
+    color: #c4c0c0;
+    border: solid 0.1px rgb(184, 184, 184);
+}
+#galary-name{
+    font-size: 20px;
+    color:#212121;
+    padding:20px 10px 20px 10px;
+    margin: 0;
+}
+#count-image{
+    font-size:20px;
+    color:#a2a2a2;
+    font-weight: 500;
+}
+#galary-grid{
+    background-color: rgb(238,238,238);
+    padding: 23px;
+    width: 86%;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+}
+#galary-grid>img{
+    width:100%;
+    height: 160px;
+}
+
+p{
+    font-size: 12px;
+    line-height: 1.2;
+    margin: 20px;
+    padding-left: 5px;
+    font-weight: 400;
+}
+
+

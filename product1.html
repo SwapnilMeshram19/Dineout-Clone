@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="./css/product1.css">
+    
+</head>
+<body>
+    <div id="main-container">
+        <div id="feature-container">
+            <!-- implement checkbod -->
+        <div class="left-feature">
+            <h4 class = "sub-head">Quick Filters</h4>
+        <div class = content><input id="search" type="text" placeholder="Search">
+            <label class="check-container" >
+                <input id = "check" type="checkbox" checked="checked" >
+                <span class="checkmark"> Dineout Pay
+                </span>
+            </label>
+
+            <label class="check-container" >
+                <input id = "check" type="checkbox" checked="checked" >
+                <span class="checkmark"> Pure Veg </span>
+               
+            </label>
+
+            <label class="check-container" >
+                <input id = "check" type="checkbox" checked="checked" >
+                <span class="checkmark"> 5 STar</span>
+               
+            </label>
+
+            <label class="check-container" >
+                <input id = "check" type="checkbox" checked="checked" >
+                <span class="checkmark"> Buffet </span>
+               
+            </label>
+
+            <p>Show More ...</p>
+        </div>
+        </div> 
+
+        <!-- // cusines implement   search two -->
+        <div class="left-feature"> 
+            <h4 class = "sub-head">Cuisines</h4>
+         <div class = "content"><input type="text" id="search" placeholder="Search For Cuisine">
+          <p onmouseover="changeColor(this)" onmouseout="changeColor(this)">North Indian</p>
+            <p onmouseover="changeColor(this)" onmouseout="changeColor(this)">Chinese</p>
+            <p onmouseover="changeColor(this)" onmouseout="changeColor(this)">South Indian</p>
+            <p onmouseover="changeColor(this)" onmouseout="changeColor(this)">Fast Food</p>
+            <p onmouseover="changeColor(this)" onmouseout="changeColor(this)">Show More ...</p>
+        </div>
+        </div>
+        <!-- // Tags implement   search three-->
+        <div class="left-feature">
+            <h4 class="sub-head">Tags</h4>
+          <div class = "content"><input id="search" type="text" placeholder="Search">
+            <label class="check-container" >
+                <input id = "check" type="checkbox" checked="checked" >
+                <span class="checkmark"> Causual Dining
+                </span>
+            </label>
+
+            <label class="check-container" >
+                <input id = "check" type="checkbox" checked="checked" >
+                <span class="checkmark">Pure Veg </span>
+                
+            </label>
+
+            <label class="check-container" >
+                <input id = "check" type="checkbox" checked="checked" >
+                <span class="checkmark"> Best Pure Veg</span>
+               
+            </label>
+
+            <label class="check-container" >
+                <input id = "check" type="checkbox" checked="checked" >
+                <span class="checkmark">  Best of Food 2021 </span>
+              
+            </label>
+
+            <p>Show More ...</p>    
+            </div>       
+
+        </div>
+        <!-- // Fetures implement    search four -->
+        <div class="left-feature">
+            <h4 class = "sub-head">Features</h4>
+         <div class = "content"><input type="text" id="search" placeholder="Search">
+            <label class="check-container" >
+                <input id = "check"type="checkbox" checked="checked" >
+                <span class="checkmark">Card Accepted</span>
+                
+            </label>
+            <label class="check-container" >
+                <input id= "check" type="checkbox" checked="checked" >
+                <span class="checkmark"> Air Conditioned</span>
+               
+            </label>
+            <label class="check-container" >
+                <input id="check"type="checkbox" checked="checked" >
+                <span class="checkmark"> Home Delivery</span>
+               
+            </label>
+            <label class="check-container" >
+                <input id = "check" type="checkbox" checked="checked" >
+                <span class="checkmark"> Wallet Accepted</span>
+               
+            </label>
+            <p>Show More ...</p>
+
+ </div>
+        </div>
+
+        </div>
+
+        <!-- // implement product sho  -->
+        <div id="product-container">
+            <p>Dineout > Delhi > Delhi Resaurants</p>
+            <h1>Best Restaurants Near Me in Delhi</h1>
+            <div id="product-details"></div>
+
+
+           
+
+
+
+        </div>
+
+    </div>
+</div>
+    
+</body>
+</html>
+<!-- <script src="./product-page-script.js"></script> -->
+<script>
+    // color blinks in the text
+    function changeColor(obj){
+        if(obj.style.color=='black'){
+            obj.style.color='rgb(162, 163, 164)'
+        }
+        else{
+            obj.style.color='black'
+        }
+    
+    }
+
+    // this is scroll part but it is not working
+    
+
+    // const acc = document.getElementsById('sub-head');
+    // for(var i=0; i < acc.length; i++){
+    //     acc[i].addEventListener('click',function(){
+    //         this.classList.toggle('active')
+    //         var content = this.nextElementSibilling;
+    //         if(content.sstyle.maxHeight){
+    //             content.style.maxHeight=null;
+    //         }
+    //         else{
+    //             content.style.maxHeight = content.scrollHeight+"px;"
+    //         }
+    //     })
+    // }
+</script>
