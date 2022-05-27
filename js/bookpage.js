@@ -1,5 +1,6 @@
 import restaurant from '../components/restaurant.js';
-import photos from '../components/photos.js'
+import photos from '../components/photos.js';
+import booked from '../components/booked.js';
 
 var sliderContainer = document.getElementById('slider-container');
 var found;
@@ -250,7 +251,12 @@ function gallary(data,phto){
             model(galaryImg.src);
         });
         galaryGrid.append(galaryImg);
-    })
+    });
+
+    document.getElementById('back-button').addEventListener('click',function(){
+        sliderContainer.innerHTML=restaurant();
+        getData();
+    });
 }
 
 
@@ -305,6 +311,9 @@ function availableTimings(){
 
 }
 
-function continueGuest(){
+var continuebutton=document.getElementById('continue');
+continuebutton.addEventListener('click',function(){
+    let bookpageCont=document.getElementById('bookpage-container');
+    bookpageCont.innerHTML=booked();
 
-}
+});

@@ -78,12 +78,28 @@
     color: rgb(112, 112, 112);
 }
 
+.status{
+    width:100%;
+    text-align: right;
+    font-size: 16px;
+    line-height: 1.9;
+    font-weight: 500;
+    color: black;
+    float: right;
+}
 #status{
     color: black;
+    float: right;
 }
 #date-time,#total-guest,#b-guest-name,#guest-id{
     color: black;
     float: right;
+}
+.b-hr{
+    width:100%;
+    background-color: #a0a0a0;
+    height: 3px;
+    border: 0px solid black;
 }
 
 

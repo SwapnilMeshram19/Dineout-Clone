@@ -134,4 +134,10 @@ p{
     font-weight: 400;
 }
 
+#back-button{
+    width:100%;
+    padding: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+}
 
