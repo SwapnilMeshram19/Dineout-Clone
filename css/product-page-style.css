@@ -207,17 +207,17 @@ p{
 .rate{
     position: absolute;
     width: 30px;
-height: 30px;
-line-height: 30px;
-text-align: center;
-color: #fff;
-font-size: 13px;
-border-radius: 4px;
-top: 10px;
-right: 10px; 
-background-color: #b3ca42;
-font-family: Metropolis Bold;
-padding: 0;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 4px;
+    top: 10px;
+    right: 10px; 
+    background-color: #b3ca42;
+    font-family: Metropolis Bold;
+    padding: 0;
 
 }
 
