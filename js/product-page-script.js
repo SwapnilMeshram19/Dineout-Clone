@@ -8,7 +8,7 @@ fetchData();
 
 async function fetchData(){
     try {
-        let url="http://localhost:3000/products";
+        let url="https://dineout-clone-json-server.herokuapp.com/products";
         let res= await fetch(url);
         let data= await res.json();
         // console.log(data);

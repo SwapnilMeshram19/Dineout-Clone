@@ -10,7 +10,7 @@ var sliderContainer = document.getElementById('slider-container');
 var found;
 getData();
 async function getData(){
-        var url="http://localhost:3000/products"
+        var url="https://dineout-clone-json-server.herokuapp.com/products"
         var data=await fetchData(url);
         
         found=data.find(el=>el.id===1);
